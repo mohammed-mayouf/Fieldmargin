@@ -1,4 +1,4 @@
-package com.mayouf.fieldmargintest.domain
+package com.mayouf.fieldmargintest.domain.repo
 
 import com.mayouf.fieldmargintest.data.model.Certificate
 import com.mayouf.fieldmargintest.utils.DataState

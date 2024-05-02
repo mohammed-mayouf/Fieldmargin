@@ -2,7 +2,7 @@ package com.mayouf.fieldmargintest.data.repo
 
 import com.mayouf.fieldmargintest.data.model.Certificate
 import com.mayouf.fieldmargintest.data.network.ApiService
-import com.mayouf.fieldmargintest.domain.CertificatesRepository
+import com.mayouf.fieldmargintest.domain.repo.CertificatesRepository
 import com.mayouf.fieldmargintest.utils.DataState
 import com.mayouf.fieldmargintest.utils.safeApiCall
 import kotlinx.coroutines.CoroutineDispatcher
