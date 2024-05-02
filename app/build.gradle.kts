@@ -84,5 +84,14 @@ dependencies {
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
+    // MockWebServer
+    testImplementation(libs.mockwebserver)
+    testImplementation(libs.kotlinx.coroutines.test)
 
+    // Mockito && Testing
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.androidx.core.testing)
 }

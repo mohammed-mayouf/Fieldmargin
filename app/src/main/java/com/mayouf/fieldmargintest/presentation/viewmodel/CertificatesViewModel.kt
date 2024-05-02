@@ -34,7 +34,7 @@ class CertificatesViewModel @Inject constructor(
         getCertificatesList(10, 1)
     }
 
-    private fun getCertificatesList(limit: Int, page: Int) {
+    fun getCertificatesList(limit: Int, page: Int) {
         _certificatesList.value = DataState.Loading()
         viewModelScope.launch {
             getCertificatesUseCase.invoke(limit = limit, page = page).collect { dataState ->
